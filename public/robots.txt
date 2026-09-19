@@ -1,0 +1,13 @@
+User-agent: *
+Allow: /
+
+# Block common non-public/system areas if they exist
+Disallow: /admin/
+Disallow: /login/
+Disallow: /register/
+Disallow: /api/
+Disallow: /private/
+Disallow: /dashboard/
+
+# Sitemap
+# Sitemap: https://fairplaylive.io/sitemap.xml
